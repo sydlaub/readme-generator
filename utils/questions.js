@@ -7,8 +7,13 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please enter a description of your project",
+        message: "Please enter a brief description of your project.",
         name: "description",
+    },
+    {
+        type: "input",
+        message: "Please provide more details about your project and its purpose.",
+        name: "about",
     },
     {
         type: "input",
@@ -18,12 +23,12 @@ const questions = [
     {
         type: "input",
         message: "What is the link to clone the repo?",
-        name: "usage",
+        name: "clone",
     },
     {
         type: "list",
         name: "license",
-        message: "Please select the license used for this project.",
+        message: "Please select the license used for this project:",
         choices: [
             "Apache License 2.0",
             "GNU General Public License v3.0",

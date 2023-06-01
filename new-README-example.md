@@ -1,13 +1,11 @@
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-  # ${data.title}
+
+  # Example
   
-    ${data.description}
+    Example description
 
-    ${data.renderLicenseBadge}
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    [A deployed version can be viewed here.](${data.URL})
+    [A deployed version can be viewed here.](www.github.com)
 
   ---
   ## Contents
@@ -22,7 +20,7 @@ function generateMarkdown(data) {
   ---
 
   ## About
-    ${data.about}
+    example about
 
   ---
 
@@ -32,16 +30,16 @@ function generateMarkdown(data) {
   ---
 
   ## Installation:
-    ${data.installation}
+    example install instructions
 
     To clone the repo:
 
-      git clone ${data.clone}
+      git clone example@example.com
   
   ---
 
   ## License
-    License used for this project: ${data.license}
+    License used for this project: MIT License
 
 
   ---
@@ -59,20 +57,16 @@ function generateMarkdown(data) {
   ---
 
   ## Tests: 
-    ${data.test}
+    example testing protocols
 
   ---
 
   ## Authors and Acknowledgements
-    ${data.author}
+    Sydney
 
   ---
 
   ## Questions
   Please use the following contact information for any questions:
-  GitHub Username: ${data.userName}
-  Email: ${data.userEmail}
-`;
-}
-
-module.exports = generateMarkdown;
+  GitHub Username: sydlaub
+  Email: sydlaub@umich.edu
