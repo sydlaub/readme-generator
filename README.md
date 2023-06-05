@@ -4,6 +4,8 @@
 The purpose of this project is to create a command-line application that dynamocally generates a professional README.md file from a user's input using the Inquirer package. This application will help to streamline the user's process of creating a professional and high-quality README for their application using Node.js. 
 
 ## Installation
+[Link to GitHub repo](https://github.com/sydlaub/readme-generator)
+
 To clone the repo:
 git clone git@github.com:sydlaub/readme-generator.git
 
