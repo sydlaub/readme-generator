@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  
+
     ${data.description}
 
     ${data.renderLicenseBadge}
@@ -12,6 +12,7 @@ function generateMarkdown(data) {
   ---
   ## Contents
   1. [About](#about)
+  
       a. [Visuals](#visuals)
   2. [Installation](#installation)
   3. [License](#license)
@@ -70,7 +71,9 @@ function generateMarkdown(data) {
 
   ## Questions
   Please use the following contact information for any questions:
+
   GitHub Username: ${data.userName}
+  
   Email: ${data.userEmail}
 `;
 }
